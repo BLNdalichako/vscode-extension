@@ -1,0 +1,25 @@
+{
+    "name": "bootstrap-snippets",
+    "displayName": "bootstrap-snippets",
+    "description": "",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BLNdalichako/vscode-extension"
+      },
+    "icon": "logo256.ico",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
